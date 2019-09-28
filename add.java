@@ -1,5 +1,6 @@
 public class add {
 	public static void main(String args[]) {
-		return args[0] + args[1];
+
+		return Integer.parseInt(args[0]) + Integer.parseInt(args[1]);
 	}
 }
